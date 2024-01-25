@@ -1,20 +1,8 @@
 name: CI
 on:
-  push:
-    tags:
-      - 'v**'
-      - '**'
-      - '*'
-  pull_request:
-    tags:
-      - 'v**'
-      - '**'
-      - '*'
   create:
     tags:
-      - 'v**'
-      - '**'
-      - '*'
+      - '*.*.*'
   workflow_dispatch:
 
 jobs:
